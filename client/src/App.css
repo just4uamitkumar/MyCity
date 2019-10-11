@@ -1,0 +1,19 @@
+.content{ padding: 20px 10px}
+    
+.remove-btn{margin-right:15px}
+.fade-enter{opacity: 0.01;}
+.fade-enter-active{opacity: 1; transition: opacity 1000ms ease-in;}
+.fade-exit{opacity: 1;}
+.fade-exit-active{opacity: 0.01; transition: opacity 1000ms ease-in;}
+
+.cityList span{padding: 0 15px; width:18.5%; display: inline-block; vertical-align: middle}
+
+.btn-secondary{margin: 0 0 1rem;}
+
+
+
+@media only screen and (max-width: 768px){
+    .cityList span{padding: 0 10px; width:17.5%;}
+}
+
+
